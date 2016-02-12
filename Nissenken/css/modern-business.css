@@ -6,10 +6,28 @@ body {
     height: 100%;
 	font-family:'Raleway' , sans-serif;
 }
+#pform{
+	border:1px solid #e5e5e5;
+	text-align: center;
+	background-color: #107896;
+	padding: 10px;
+}
 
+
+.jumbotron {
+    position: relative;
+    background: #107896 center center;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  	min-height: 100vh; /* These two lines are counted as one :-)       */
+  	display: flex;
+  	align-items: center;
+}
 
 body {
-    padding-top: 50px;
+    padding-top: !50px;
 }
 p{
 	text-align:justify;
@@ -20,11 +38,23 @@ h2,h4 {
 	color:#107896;
 	font-family:'Lato',sans-serif;
 }
+.head-text{
+	position: absolute;
+	top: 50px;
+}
+
+.navbar-fixed-top{
+	border: 0px;
+}
+#about-nissenken{
+	margin: 0px;
+}
 .img-hover:hover {
     opacity: 0.8;
 }
 .navbar-default .navbar-nav>li>a:hover{
 	color:#107896;
+	border: 0px;
 }
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
@@ -38,8 +68,7 @@ h2,h4 {
 	padding:0;
 }
 
-
-.breadcrumb{
+#myCarousel {
 	background-color:#FFFFFF;
 	border-radius:0px;
 	margin:0;
@@ -54,22 +83,8 @@ h2,h4 {
 	color:#F2f3f4;
 }
 
-header.carousel {
-    height: 50%;
-}
 
-header.carousel .item,
-header.carousel .item.active,
-header.carousel .carousel-inner {
-    height: 100%;
-}
 
-header.carousel .fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}
 /*Service Styles */
 .panel-primary>.panel-heading {
 	background-color:#107896;
@@ -82,6 +97,7 @@ header.carousel .fill {
 }
 
 .list-group-item {
+	padding: 20px;
 	background-color:#F2f3f4;
 }
 .list-group .active {
