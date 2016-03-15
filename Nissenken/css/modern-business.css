@@ -6,17 +6,18 @@ body {
     height: 100%;
 	font-family:'Raleway' , sans-serif;
 }
-#pform{
+#aform{
 	border:1px solid #e5e5e5;
 	text-align: center;
-	background-color: #107896;
 	padding: 10px;
 }
-
+#aform a:hover{
+	color:#649AE5;
+}
 
 .jumbotron {
     position: relative;
-    background: #107896 center center;
+    background: #649AE5 center center;
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -35,7 +36,7 @@ p{
 	font-family:inherit;
 }
 h2,h4 {
-	color:#107896;
+	color:#649AE5;
 	font-family:'Lato',sans-serif;
 }
 .head-text{
@@ -53,7 +54,7 @@ h2,h4 {
     opacity: 0.8;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	color:#107896;
+	color:#649AE5;
 	border: 0px;
 }
 .navbar-brand {
@@ -87,12 +88,12 @@ h2,h4 {
 
 /*Service Styles */
 .panel-primary>.panel-heading {
-	background-color:#107896;
-	border-color:#107896;
+	background-color:#649AE5;
+	border-color:##649AE5;
 }
 .btn-primary {
     color: #fff;
-    background-color: #107896;
+    background-color: #649AE5;
     border-color: #3c6478;
 }
 
@@ -101,7 +102,7 @@ h2,h4 {
 	background-color:#F2f3f4;
 }
 .list-group .active {
-	background-color:#107896;
+	background-color:#649AE5;
 }
 .list-group .active a a:hover  {
 	color:#000;
@@ -164,6 +165,19 @@ margin-bottom:5px;
 }
 .lead3{
 	padding:10px;
+}
+#map{
+	padding: 10px;
+    text-align: center;
+}
+.list-group{
+	margin-top: 80px;
+}
+#bsitesindex{
+	padding-bottom: 20px;
+}
+#map2{
+	display: inline;
 }
 
 /* Responsive Styles */
