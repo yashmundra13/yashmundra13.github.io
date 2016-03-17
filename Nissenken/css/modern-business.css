@@ -6,6 +6,7 @@ body {
     height: 100%;
 	font-family:'Raleway' , sans-serif;
 }
+
 #aform{
 	border:1px solid #e5e5e5;
 	text-align: center;
@@ -14,10 +15,20 @@ body {
 #aform a:hover{
 	color:#649AE5;
 }
-
+.footer{
+	background-color: #588CCA;
+	height:60px;
+}
+.text-muted{margin:20px 0;
+	color: #ffffff;
+}
+.text-muted a{
+	color: #FFF;
+}
+.footer>.container{padding-right:15px;padding-left:15px}
 .jumbotron {
     position: relative;
-    background: #649AE5 center center;
+    background: url("../img/bg.jpg");
     width: 100%;
     background-size: cover;
     overflow: hidden;
@@ -26,7 +37,9 @@ body {
   	display: flex;
   	align-items: center;
 }
-
+#index1 h1,#index1 p {
+	color: #000;
+}
 body {
     padding-top: !50px;
 }
@@ -47,6 +60,7 @@ h2,h4 {
 .navbar-fixed-top{
 	border: 0px;
 }
+
 #about-nissenken{
 	margin: 0px;
 }
@@ -56,10 +70,6 @@ h2,h4 {
 .navbar-default .navbar-nav>li>a:hover{
 	color:#649AE5;
 	border: 0px;
-}
-.navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	font-size:24px;
 }
 .navbar-default .navbar-nav>li>a{
 	font-family:'Lato',sans-serif;
@@ -178,7 +188,6 @@ margin-bottom:5px;
 }
 #map2{
 	display: inline;
-}
 
 /* Responsive Styles */
 @media(min-width:680px){
