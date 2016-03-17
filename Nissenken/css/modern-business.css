@@ -191,7 +191,7 @@ margin-bottom:5px;
 }
 /* Responsive Styles */
 @media(min-width:680px){
-	#service-img{
+	#service-img {
 		background-image:url(../img/top_img02.jpg);
 		background-position:center;
 		background-repeat:no-repeat;
