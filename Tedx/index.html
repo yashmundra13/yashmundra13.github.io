@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TEDxYouth@JPIS</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+    <!--Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,800,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img alt="Brand" class="img-responsive" id="Brand" src="logo.png">
+                </a>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll " href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#speaker">Speakers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#participate">Participate</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Our Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#partners">Our Partners</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <canvas id="waves"></canvas>
+             <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" id="bg" src="logow.png"><br>
+                    <h1>Waves</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class= "row">
+                <div class="col-md-6" id="tedx-intro">
+
+                        <h1>What is TEDx?</h1>
+
+                        <p>In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. Our event is called TEDxYouthJPIS where x = independently organized TED event. At our TEDxYouthJPIS event, TED Talks, videos and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self- organized. </p>
+
+                </div>
+                <div class="col-md-6" id="ted-intro">
+
+                        <h1>What is TEDxYouth@JPIS?</h1>
+
+
+                        <p>Having reached an era in which even the smallest actions have extremely powerful consequences capable of changing the course of history, the world today needs a generation of innovative thinkers – a generation which can come up with game-changing ideas and concepts on the tip of its fingers and make wise and informed decisions with utter confidence. This ideology guides the TEDxYouth@JPIS, an event where speakers from all over the world will take the stage to enthral and engage the youth, expanding its understanding of the power it holds and the eminence of discoveries and innovation that ties in to that.</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <i class="fa fa-calendar-times-o fa-2x"></i><h4>28 July 2016</h4><br>
+                    <i class="fa fa-map-marker fa-2x"></i><h4>Jayshree Periwal International School</h4>
+                    <i class="fa fa-tags fa-2x"></i><h4>100 Tickets</h4>
+                    <i class="fa fa-bullhorn fa-2x"></i><h4>6 Speaker</h4>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive" src="school.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speaker Section -->
+    <!--Speaker Nominee-->
+    <section id="speaker" class="speaker-section">
+        <div id="nom-speaker" class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="sp-text">Nominate Speakers</h1>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                     <p class="sp-text">Hey, we are still finalising our speaker list. Want to see a speaker of your choice at TEDxYouth@JPIS. Tell your pick below!</p>
+                     <br>
+                     <a href="http://goo.gl/forms/9hKkihCzRr"  type="button" class="btn btn-default">Nominate a speaker</a>
+                     <br>
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!--Speaker Member Section
+    <section id="speaker" class="speaker-section">
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Our Speakers</h1>
+                    </div>
+                </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="team-member">
+                  <a data-toggle="modal" data-target="#speaker1"><figure>
+                    <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                    <figcaption>
+                      <h4>Speaker 1</h4><br>
+                      <p>Lorem Ipsum</p>
+                    </figcaption>
+                  </figure></a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <a data-toggle="modal" data-target="#speaker2"><figure>
+                    <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                    <figcaption>
+                      <h4>Speaker 1</h4><br>
+                      <p>Lorem Ipsum</p>
+                    </figcaption>
+                  </figure></a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <a data-toggle="modal" data-target="#speaker3"><figure>
+                    <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                    <figcaption>
+                      <h4>Speaker 1</h4><br>
+                      <p>Lorem Ipsum</p>
+                    </figcaption>
+                  </figure></a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="team-member">
+                  <a data-toggle="modal" data-target="#speaker4"><figure>
+                    <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                    <figcaption>
+                      <h4>Speaker 1</h4><br>
+                      <p>Lorem Ipsum</p>
+                    </figcaption>
+                  </figure></a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <a data-toggle="modal" data-target="#speaker5"><figure>
+                    <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                    <figcaption>
+                      <h4>Speaker 1</h4><br>
+                      <p>Lorem Ipsum</p>
+                    </figcaption>
+                  </figure></a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="team-member">
+                  <a data-toggle="modal" data-target="#speaker6"><figure>
+                    <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                    <figcaption>
+                      <h4>Speaker 1</h4><br>
+                      <p>Lorem Ipsum</p>
+                    </figcaption>
+                  </figure></a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Participate Section -->
+    <section id="participate" class="participate-section">
+        <div class="container" >
+                <div class="col-lg-12">
+                    <h1>Register Now</h1>
+                </div>
+            <div class="col-md-12">
+                  <p>The second TEDxYouth@JPIS takes place on the 23 July 2016, at Jayshree Periwal International School.</p>
+                  <p>Registrations are open!</p>
+                  <br>
+                  <a href="#"  type="button" class="btn btn-default">Register Now!</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Our Team</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-6">
+                    <div class="team-member">
+                      <a data-toggle="modal" data-target="#team1"><figure>
+                        <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                        <figcaption>
+                          <h4>Speaker 1</h4>
+                          <p>Lorem Ipsum</p>
+                        </figcaption>
+                      </figure></a>
+                    </div><!-- /.team-member-->
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="team-member">
+                      <a data-toggle="modal" data-target="#team2"><figure>
+                        <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                        <figcaption>
+                          <h4>Speaker 1</h4>
+                          <p>Lorem Ipsum</p>
+                        </figcaption>
+                      </figure></a>
+                    </div><!-- /.team-member-->
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="team-member">
+                      <a data-toggle="modal" data-target="#team3"><figure>
+                        <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                        <figcaption>
+                          <h4>Speaker 1</h4>
+                          <p>Lorem Ipsum</p>
+                        </figcaption>
+                      </figure></a>
+                    </div><!-- /.team-member-->
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="team-member">
+                      <a data-toggle="modal" data-target="#team4"><figure>
+                        <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                        <figcaption>
+                          <h4>Speaker 1</h4>
+                          <p>Lorem Ipsum</p>
+                        </figcaption>
+                      </figure></a>
+                    </div><!-- /.team-member-->
+                </div>
+             </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-6">
+                    <div class="team-member">
+                      <a data-toggle="modal" data-target="#team5"><figure>
+                        <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                        <figcaption>
+                          <h4>Speaker 1</h4>
+                          <p>Lorem Ipsum</p>
+                        </figcaption>
+                      </figure></a>
+                    </div><!-- /.team-member-->
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="team-member">
+                      <a data-toggle="modal" data-target="#team6"><figure>
+                        <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                        <figcaption>
+                          <h4>Speaker 1</h4>
+                          <p>Lorem Ipsum</p>
+                        </figcaption>
+                      </figure></a>
+                    </div><!-- /.team-member-->
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="team-member">
+                      <a data-toggle="modal" data-target="#team7"><figure>
+                        <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                        <figcaption>
+                          <h4>Speaker 1</h4>
+                          <p>Lorem Ipsum</p>
+                        </figcaption>
+                      </figure></a>
+                    </div><!-- /.team-member-->
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="team-member">
+                      <a data-toggle="modal" data-target="#team8"><figure>
+                        <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                        <figcaption>
+                          <h4>Speaker 1</h4>
+                          <p>Lorem Ipsum</p>
+                        </figcaption>
+                      </figure></a>
+                    </div><!-- /.team-member-->
+                </div>
+             </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-6">
+                    <div class="team-member">
+                      <a data-toggle="modal" data-target="#team9"><figure>
+                        <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                        <figcaption>
+                          <h4>Speaker 1</h4>
+                          <p>Lorem Ipsum</p>
+                        </figcaption>
+                      </figure></a>
+                    </div><!-- /.team-member-->
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="team-member">
+                      <a data-toggle="modal" data-target="#team10"><figure>
+                        <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                        <figcaption>
+                          <h4>Speaker 1</h4>
+                          <p>Lorem Ipsum</p>
+                        </figcaption>
+                      </figure></a>
+                    </div><!-- /.team-member-->
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="team-member">
+                      <a data-toggle="modal" data-target="#team11"><figure>
+                        <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                        <figcaption>
+                          <h4>Speaker 1</h4>
+                          <p>Lorem Ipsum</p>
+                        </figcaption>
+                      </figure></a>
+                    </div><!-- /.team-member-->
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="team-member">
+                      <a data-toggle="modal" data-target="#team12"><figure>
+                        <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                        <figcaption>
+                          <h4>Speaker 1</h4>
+                          <p>Lorem Ipsum</p>
+                        </figcaption>
+                      </figure></a>
+                    </div><!-- /.team-member-->
+                </div>
+             </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-6">
+                    <div class="team-member">
+                      <a data-toggle="modal" data-target="#team13"><figure>
+                        <img src="http://placehold.it/370x306" alt="" class="img-responsive">
+                        <figcaption>
+                          <h4>Speaker 1</h4>
+                          <p>Lorem Ipsum</p>
+                        </figcaption>
+                      </figure></a>
+                    </div><!-- /.team-member-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Partners Section -->
+    <section id="partners" class="partner-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Our Partners</h1>
+                </div>
+            <div class="row">
+              <div class="col-md-2 col-sm-4 col-xs-6">
+                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
+              </div>
+              <div class="col-md-2 col-sm-4 col-xs-6">
+                  <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
+              </div>
+              <div class="col-md-2 col-sm-4 col-xs-6">
+                  <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
+              </div>
+              <div class="col-md-2 col-sm-4 col-xs-6">
+                  <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
+              </div>
+              <div class="col-md-2 col-sm-4 col-xs-6">
+                  <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
+              </div>
+              <div class="col-md-2 col-sm-4 col-xs-6">
+                  <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
+              </div>
+            </div>
+        </div>
+    </section>
+<!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Full Name:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Phone Number:</label>
+                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email Address:</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" id="form-btn" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div id="con-details" class="col-md-4">
+                    <div  class="row">
+                        <h1>Contact Details</h1>
+                        <p>
+                            TedxYouth@JPIS<br>Jayshree Peiwal International School,<br>Mahapura-SEZ,<br>Rajasthan India
+                        </p>
+                        <p><i class="fa fa-phone"></i> : +91-</p>
+                        <p><i class="fa fa-envelope"></i>: <a href="#"></a><br><br>
+                        <a href="https://www.facebook.com/tedxjpis" class="link"><i class="fa fa-facebook " aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/tedxyouthjpis" class="link"><i class="fa fa-twitter " aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/tedxyouth_jpis/" class="link"><i class="fa fa-instagram " aria-hidden="true"></i></a>
+                        </p>
+                    </div>
+                </div>
+
+        </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.4352900933263!2d75.66394551456389!3d26.826104070272333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4a62be59c98d%3A0xc441de6a83c1f969!2sJayshree+Periwal+International+School!5e0!3m2!1sen!2sin!4v1460483619651" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+    
+        <p>Made by Yash Mundra</p>
+      
+    </footer>
+
+<!---SPEAKER MODALS--> 
+<div class="modal fade" id="speaker1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Speaker Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="speaker2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Speaker Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="speaker3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Speaker Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="Team Member4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Team Member Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="Team Member5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Team Member Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="Team Member6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Team Member Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<!--TEAM MODALS-->
+<div class="modal fade" id="team1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Team Member Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="team2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Team Member Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="team3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Team Member Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="team4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Team Member Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="team5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Team Member Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="team6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Team Member Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<div class="modal fade" id="team7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Team Member Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="team8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Team Member Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="team9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Team Member Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="team10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Team Member Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="team11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Speaker Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="team12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Speaker Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="team13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body row">
+                    <div class="col-sm-8" id="sp-bio">
+                        <h1>Speaker Name</h1>
+                        <h3>Job</h3>
+                        <h5>Country</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec orci est. Suspendisse id enim semper, dignissim ligula sed, aliquet urna. Proin in erat ac tellus dictum consequat. In malesuada elementum tellus, at blandit nibh commodo ac. Aliquam viverra, leo eu posuere cursus, ipsum mi sollicitudin risus, non facilisis purus ipsum sed sem. Suspendisse quis risus vulputate, volutpat nisl sit amet, dictum magna. Proin dapibus magna viverra, fermentum elit non, porta sem. Ut sit amet ante pretium, tincidunt magna sed, vestibulum neque. Aliquam ipsum arcu, commodo vel interdum vel, imperdiet ut purus. Sed et ullamcorper mauris. Maecenas pulvinar quis mi non porta. Curabitur non bibendum velit. Aliquam luctus tortor sit amet nulla vestibulum aliquam. Etiam mollis lectus eget lacus facilisis, ac consequat massa mattis.</p>
+                    </div>
+                    <div class="col-sm-4" id="sp-pic">
+                        <img = src="http://placehold.it/370x306" class="img-responsive">
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>  
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script src='http://isuttell.github.io/sine-waves/javascripts/sine-waves.min.js'></script>
+    <script src="js/waves.js"></script>
+
+</body>
+
+</html>
