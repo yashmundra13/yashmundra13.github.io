@@ -1,0 +1,33 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="../../common/css/import.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../common/css/global2.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../css/movie.css" media="all" />
+<script type="text/javascript" src="../../common/js/jquery.js"></script>
+<script type="text/javascript" src="../../common/js/swfobject.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+	var flashvars = {
+		cover:"movie_1/cover.jpg",
+		movie:"movie.flv"
+	};
+	var params = {
+		allowfullscreen:"true"
+	};
+	var attributes = {};
+	swfobject.embedSWF("movie_1/player.swf", "flashcontent", "800", "480", "9.0.45",null, flashvars, params, attributes);
+// ]]>
+</script>
+<title>Nissenken promotion video</title>
+</head>
+<body>
+<div class="movieArea">
+	<div id="flashcontent">
+		<a href="movie_1/movie.mp4"><img src="movie_1/noflash.jpg" /></a>
+	</div>
+</div>
+</body>
+</html>

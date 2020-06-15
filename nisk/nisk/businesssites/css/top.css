@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.column1 h4{
+	margin-top:20px;	
+}
+
+.column1 .files{
+	background-color:#eef4fb;
+	border:1px solid #d9d9d9;
+	width:620px;
+	margin-top:20px;
+	padding:14px;
+	position:relative;
+}
+
+.column1 .files p{
+	width:375px;
+}
+
+.column1 .files .bt1{
+	position:absolute;
+	top:14px;
+	left:400px;
+	width:200px;
+	height:40px;
+	
+}
+
+.columnArea{
+	position:relative;
+	padding:20px 5px;
+	background-image:url(../img/line_dots.gif);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+
+.columnArea h5{
+	font-size:15px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.columnArea h5 .attention{
+	font-size:12px;
+	font-weight:normal;
+	margin-bottom:5px;
+}
+
+.accessBt{
+	position:absolute;
+	right:10px;
+	bottom:20px;
+}
+
+*html .accessBt{
+	position:absolute;
+	right:10px;
+	top:55px;
+}
+
+
+/*******/
+.world_map{
+	padding: 40px 0 30px;
+	position: relative;
+}
+.world_map .map_image{
+	position: relative;
+	z-index: 0;
+}
+.world_map a{
+	display: block;
+	position: absolute;
+	z-index: 1;
+	background-color: transparent;
+}
+.world_map a.tokyo{
+	top: 371px;
+	right: 52px;
+}
+.world_map a.tochigi{
+	top: 325px;
+	right: 14px;
+}
+.world_map a.shizuoka{
+	top: 448px;
+	right: 9px;
+}
+.world_map a.aichi{
+	top: 494px;
+	right: 67px;
+}
+.world_map a.osaka{
+	top: 535px;
+	right: 97px;
+}
+.world_map a.kyoto{
+	top: 348px;
+	left: 113px;
+}
+.world_map a.hyogo{
+	top: 382px;
+	left: 62px;
+}
+
+.world_map a.china{
+	top: 79px;
+	left: 266px;
+}
+.world_map a.hongkong{
+	top: 107px;
+	left: 235px;
+}
+.world_map a.indonesia{
+	top: 166px;
+	left: 229px;
+}
+.world_map a.myanmar{
+	top: 202px;
+	left: 2px;
+}
+.world_map a.india{
+	top: 100px;
+	left: 2px;
+}
+.world_map a.bangladesh{
+	top: 163px;
+	left: 2px;
+}
+.world_map a.cambodia{
+	top: 137px;
+	left: 237px;
+}
+
+/*******/
+div.japan,.foregin{
+	padding-bottom: 30px;
+}
+div.japan h3,.foreign h3{
+	border-top: solid 1px #e0e0e0;
+	margin: 0;
+	padding: 26px 0 10px;
+}
+.area{
+	margin-bottom: 10px;
+}
+.area .list{
+	padding-bottom: 20px;
+}
+.area h4{
+	width: 650px;
+	height: 45px;
+	margin: 0;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+.area h4:hover{
+	background-position: 0 -45px;
+}
+.area h4 a{
+	width: 650px;
+	height: 45px;
+	background-position: 618px 13px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	display: block;
+	text-indent: -9999px;
+}
+.area .list{
+	display: none;
+}
+div.japan .area h4 a{
+	background-image: url(../img/plus_blue.png);
+}
+div.japan .area h4.open a{
+	background-image: url(../img/minus_blue.png);
+}
+div.foreign .area h4 a{
+	background-image: url(../img/plus_green.png);
+}
+div.foreign .area h4.open a{
+	background-image: url(../img/minus_green.png);
+}
+.area.kanto h4{
+	background-image: url(../img/kanto_title.png);
+}
+.area.chubu h4{
+	background-image: url(../img/chubu_title.png);
+}
+.area.kinki h4{
+	background-image: url(../img/kinki_title.png);
+}
+.area.china h4{
+	background-image: url(../img/china_title.png);
+}
+.area.hongkong h4{
+	background-image: url(../img/hongkong_title.png);
+}
+.area.indonesia h4{
+	background-image: url(../img/indonesia_title.png);
+}
+.area.myanmar h4{
+	background-image: url(../img/myanmar_title.png);
+}
+.area.india h4{
+	background-image: url(../img/india_title.png);
+}
+.area.bangladesh h4{
+	background-image: url(../img/bangladesh_title.png);
+}
+.area.cambodia h4{
+	background-image: url(../img/cambodia_title.png);
+}
+
+
+
+
+
+
+
+
+
+
+

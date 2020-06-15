@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.column1 h3{
+	margin-bottom:0px;
+}
+
+.column1 .lead1{
+	margin:20px 5px 10px;
+}
+
+.column1 .lead2{
+	margin:20px 5px 20px;
+}
+
+.column1 .lead3{
+	margin:0px 5px 20px;
+}
+
+.column1 .lead4{
+	margin:10px 0px 20px;
+}
+
+
+.column1 .way{
+	margin-bottom:10px;
+	height:110px;
+}
+
+.column1 .way li{
+	float:left;
+	margin-right:10px;
+}
+
+.column1 .way li.right{
+	margin-right:0px;
+}
+
+.column1 .files{
+	background-color:#eef4fb;
+	width:650px;
+	height:160px;
+	position:relative;
+	margin-bottom:25px;
+}
+
+.column1 .files p{
+	width:205px;
+}
+
+.column1 .files .bt1{
+	position:absolute;
+	top:59px;
+	left:269px;
+	width:175px;
+	height:40px;
+	
+}
+
+.column1 .files .bt2{
+	position:absolute;
+	top:59px;
+	left:449px;
+	width:175px;
+	height:40px;
+	
+}
+
+.column1 .files .bt3{
+	position:absolute;
+	top:120px;
+	left:269px;
+	width:175px;
+	height:40px;
+	
+}
+
+.column1 .files .bt4{
+	position:absolute;
+	top:120px;
+	left:449px;
+	width:175px;
+	height:40px;
+	
+}
+
+.column1 .files .bt5{
+	position:absolute;
+	top:181px;
+	left:269px;
+	width:175px;
+	height:40px;
+	
+}
+
+.column1 .files .bt6{
+	position:absolute;
+	top:181px;
+	left:449px;
+	width:175px;
+	height:40px;
+	
+}
+
+.column1 .files .bt7{
+	position:absolute;
+	top:242px;
+	left:269px;
+	width:175px;
+	height:40px;
+	
+}
+
+.column1 .files .bt8{
+	position:absolute;
+	top:242px;
+	left:449px;
+	width:175px;
+	height:40px;
+	
+}
+
+
+
+.column1 .files2{
+	background-color:#eef4fb;
+	border:1px solid #d9d9d9;
+	width:620px;
+	padding:14px;
+	position:relative;
+	margin-bottom:25px;
+}
+
+.column1 .files2 p{
+	margin-bottom:10px;
+}
+
+.column1 .files2 li{
+	float:left;
+	margin-right:4px;
+	margin-bottom:4px;
+}
+
+.column1 .files2 li.btRight{
+	margin-right:0px;	
+}
+
+h4{
+	margin-bottom:15px;	
+}
+
+h5{
+	margin-bottom:10px;	
+}
+
+.leadListSet{
+	padding-left:20px;
+	margin-bottom:20px;
+}
+
+.leadListSet li{
+list-style-type:disc;
+margin-bottom:15px;
+line-height:150%;
+}
+
+
+.leadListSet2{
+	padding-left:20px;
+	margin-bottom:15px;
+}
+
+.leadListSet2 li{
+list-style-type:disc;
+margin-bottom:5px;
+}
+
+.btFaq{
+	text-align:center;
+	height:40px;
+}
+
+.flow{
+	margin-bottom:30px;	
+}

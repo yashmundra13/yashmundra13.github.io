@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.column1 h4{
+	margin-top:20px;	
+}
+
+.columnArea{
+	padding:20px 0px;
+	background-image:url(../img/line_dots.gif);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+
+.leftImg{
+	width:350px;
+	float:left;
+}
+
+.rightData{
+	float:right;
+	width:280px;
+	
+}
+
+
+.titleCopy{
+	padding-left:10px;
+	border-left:2px solid #5d85bd;
+	margin-bottom:10px;
+}
+
+.conceptCopy{
+	margin-bottom:10px;
+	min-height:70px;
+	height:auto !important;
+	height:70px;
+
+}

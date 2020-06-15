@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.column1{
+	margin-bottom:20px;	
+}
+
+.column1 h3{
+	margin-bottom:20px;	
+}
+
+h4{
+	margin-top:15px;
+	margin-bottom:15px;	
+}
+
+h5{
+	margin-bottom:10px;	
+}
+.ruleProductListBt {
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+}
+
+
+.column1 .leadArea{
+	width:650px;
+	margin-bottom:20px;
+}
+
+.column1 .leadArea .left{
+	width:425px;
+	float:left;
+	padding-left:5px;
+}
+
+.column1 .leadArea .right{
+	width:211px;	
+	float:right;
+}
+
+
+.column1 .contactArea{
+	margin-top:20px;
+	margin-bottom:0px;
+	height:235px;
+	position:relative;
+}
+
+.column1 .contactArea p.contactBS{
+	width:610px;
+	position:absolute;
+	top:112px;
+	left:32px;
+	font-size:13px;
+	line-height:24px;
+	letter-spacing:1px;
+}
+
+.column1 .contactArea p.contactBS_attention{
+	width:500px;
+	position:absolute;
+	top:165px;
+	left:32px;
+	font-size:12px;
+	line-height:18px;
+}
+
+.column1 .contactArea .TestFile_PDF{
+	position:absolute;
+	top:233px;
+	left:537px;
+	width:34px;
+	height:46px;
+}
+
+.column1 .contactArea .TestFile_XLS{
+	position:absolute;
+	top:233px;
+	left:581px;
+	width:34px;
+	height:46px;
+}
+
+
+.lead1{
+	margin:0 5px 10px;	
+}
+
+.lead2{
+	margin:0 5px 25px;	
+}
+
+.arylaminesList{
+	margin:20px 0 0;
+}
+
+.arylaminesList h5{
+	margin-bottom:15px;
+}
+
+table.arylaminesListLeft{
+	float:left;
+	width:285px;
+	border-left:1px solid #cccfd3;
+	border-top:1px solid #cccfd3;
+	margin-bottom:10px;
+	font-size:90%;
+}
+
+.arylaminesListLeft th{
+	background-color:#dee9f9;	
+	padding:6px;	
+	border-right:1px solid #cccfd3;
+	border-bottom:1px solid #cccfd3;
+	text-align:center;
+}
+
+.arylaminesListLeft td{
+	padding:6px;	
+	border-right:1px solid #cccfd3;
+	border-bottom:1px solid #cccfd3;
+	text-align:center;
+}
+
+
+table.arylaminesListRight{
+	float:right;
+	width:350px;
+	border-left:1px solid #cccfd3;
+	border-top:1px solid #cccfd3;
+	margin-bottom:10px;
+	font-size:90%;
+}
+
+.arylaminesListRight th{
+	background-color:#dee9f9;	
+	padding:6px;	
+	border-right:1px solid #cccfd3;
+	border-bottom:1px solid #cccfd3;
+	text-align:center;
+}
+
+.arylaminesListRight td{
+	padding:6px;	
+	border-right:1px solid #cccfd3;
+	border-bottom:1px solid #cccfd3;
+	text-align:center;
+}
+
+arylaminesList .td1{
+	width:20px;	
+}
+
+arylaminesList .td2{
+	width:58px;
+}
+
+arylaminesList .td3{
+	width:155px;
+}
+
+arylaminesList .td4{
+	width:230px;	
+}
+
+
+.flowImg{
+	margin-bottom:20px;	
+}
+
+.resolutionImg{
+	margin-bottom:10px;	
+}
+
+.column1 .rule_img{
+	margin-bottom:15px;	
+}
+
+.column1 .noteTxt{
+	margin-top:10px;
+	font-size:11px;
+	line-height:18px
+}
+
+.column1 .price_img{
+	margin:20px 0 20px;	
+}
+
+
+
+.ruleProduct{
+	width:650px;
+	margin-top:15px;
+	margin-bottom:25px;
+	font-size:12px;
+	line-height:18px;
+}
+
+.ruleProduct td.left{
+	width:160px;
+	padding:10px 10px 10px 10px;
+	border:1px solid #dfe2e5;
+	background-color:#f2f2f2;
+}
+
+.ruleProduct td.right{
+	width:446px;
+	padding:10px 10px 10px 10px;
+	border:1px solid #dfe2e5;
+}
