@@ -3,6 +3,17 @@
 
 <head>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79430720-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-79430720-3');
+  </script>
+
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Yash Mundra">
@@ -82,7 +93,7 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+        <h2 class="mb-5">Work Experience</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -117,33 +128,6 @@
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Web Developer</h3>
-            <div class="subheading mb-3">Dyson School of Business, Cornell University</div>
-            <p><ul>
-              <li>Employed as a webmaster for Chris Barrett and his research group.</li>
-              <li>Maintained and developed new assets for the site as well as employing cosmetic changes.</li>
-            </ul></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2018 - Present</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Nissenken Quality Evaluation Center</h3>
-            <div class="subheading mb-3">Dyson School of Business, Cornell University</div>
-            <p><ul>
-              <li>Designed a new website for the center focusing on the local market.</li>
-              <li>Built functionality such as a news bulletin board into their website</li>
-            </ul></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2016</span>
-          </div>
-        </div>
 
       </div>
 
@@ -183,6 +167,29 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
         <h2 class="mb-5">Projects</h2>
+
+        <div class="resume-content">
+          <h3 class="mb-0">Daily Brief</h3>
+          <p><ul>
+            <li>Daily Brief is a progressive web app utilizing Google’s T5 Transformers to provide digestible summary of the top news stories of the day.</li>
+            <li>Utilized PyTorch to finetune T5-small on CNN/Daily Mail summarization Dataset.</li>
+            <li>Deployed as a Docker container on AWS’s ECS which runs twice a day to store the summarized news in a DynamoDB Database.</li>
+            <li>Used AWS’s Lambda and API Gateway to create a RESTful API to retrieve data from DynamoDB.</li>
+            <li>Created a front-end using React Native which fetched data through the API.</li>
+            <li>Link: <a href="https://news-app-a8a95.web.app/">https://news-app-a8a95.web.app/</a></li>
+          </ul></p>
+        </div>
+
+        <div class="resume-content">
+          <h3 class="mb-0">SIA (Swachh India App)</h3>
+          <p><ul>
+            <li>Conceptualized and created an Android app to raise awareness about COVID and give advice on prevention.</li>
+            <li>Features included location based reminders(regarding mask use), and time based reminders for pre-made and custom tips.</li>
+            <li>Utilized React-Native for the front-end, Node-js for the back-end. Used Expo’s libraries for native functionality.</li>
+            <li>Supported both Hindi and English languages using the i18n-js library.</li>
+            <li>Play Store: <a href="https://play.google.com/store/apps/details?id=in.SIA">https://play.google.com/store/apps/details?id=in.SIA</a></li>
+          </ul></p>
+        </div>
 
         <div class="resume-content">
           <h3 class="mb-0">Ocaml Based Physics Simulator and Game</h3>
@@ -228,7 +235,7 @@
             <li>Allowed teachers in a high school to keep track of student’s assignments.</li>
             <li>Developed a robust backend using PHP and MySQL.</li>
             <li>Project Demo: <a href="www.mundra.net.in/am">www.mundra.net.in/am</a></li>
-            <li>Project Repository: https://github.com/yashmundra13/CMS</li>
+            <li>Project Repository: <a href="https://github.com/yashmundra13/CMS">https://github.com/yashmundra13/CMS</a></li>
           </ul></p>
 
         </div>
