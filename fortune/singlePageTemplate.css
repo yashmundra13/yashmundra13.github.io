@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	background-color: #FA5557;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+/* Container */
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	background-color: #FFFFFF;
+}
+.hero_header {
+	color: cornsilk;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	font-size: 10px;
+}
+/* Hero Section */
+.hero {
+	background-color: #FA5557;
+	padding-top: 250px;
+	padding-bottom: 250px;
+	margin-top: 50px;
+	
+}
+.light {
+	font-weight: bold;
+	color: cornsilk;
+	font-size: 10px;
+}
+.tagline {
+	text-align: center;
+	color: gold;
+	margin-top: 20px;
+	font-weight:400;
+	text-transform: none;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+/* Copyright Section */
+.copyright {
+	font-size: 8px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+
